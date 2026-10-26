@@ -1,0 +1,32 @@
+
+import java.util.Scanner;
+
+public class Task04 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Create an array of 10 integers
+        int[] arr = new int[10];
+
+        // Take input from the user
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print("Enter number: ");
+            arr[i] = sc.nextInt();
+        }
+
+        // Ask the user for the number to search
+        System.out.print("Enter number to search: ");
+        int target = sc.nextInt();
+
+        // Initially, assume the number is not found
+        boolean found = false;
+
+        // TODO: Check every array element
+        // TODO: If an element matches target, print its index
+        // TODO: Set found to true when a match is found
+
+        // TODO: If found is still false, print "Number not found"
+
+        sc.close();
+    }
+}
