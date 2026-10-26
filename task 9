@@ -1,0 +1,33 @@
+
+import java.util.Scanner;
+
+public class Task09 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int[] arr = new int[10];
+
+        // Take input from the user
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print("Enter number: ");
+            arr[i] = sc.nextInt();
+        }
+
+        // Check each element
+        for (int i = 0; i < arr.length; i++) {
+
+            // TODO: Check whether this value appeared before
+            // If it appeared before, skip it
+
+            // TODO: Count how many times arr[i] appears
+            int count = 0;
+
+            // TODO: Use another loop to count occurrences
+
+            // TODO: If count is greater than 1,
+            // print the value and its occurrence count
+        }
+
+        sc.close();
+    }
+}
