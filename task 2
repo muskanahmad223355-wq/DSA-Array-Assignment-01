@@ -1,0 +1,32 @@
+
+import java.util.Scanner;
+
+public class Task02 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Create an array of 10 integers
+        int[] arr = new int[10];
+
+        // Take input from the user
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print("Enter number: ");
+            arr[i] = sc.nextInt();
+        }
+
+        // Initialize maximum and minimum
+        int max = arr[0];
+        int min = arr[0];
+        int maxIndex = 0;
+        int minIndex = 0;
+
+        // TODO: Find maximum, minimum, and their indices
+
+        // TODO: Find the second-smallest distinct value
+        // Also find its index or indices
+
+        // TODO: Display all results
+
+        sc.close();
+    }
+}
