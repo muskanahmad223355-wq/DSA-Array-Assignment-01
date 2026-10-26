@@ -1,0 +1,36 @@
+
+import java.util.Scanner;
+
+public class Task06 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Create an array of 10 integers
+        int[] arr = new int[10];
+
+        // Take input from the user
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print("Enter number: ");
+            arr[i] = sc.nextInt();
+        }
+
+        // Ask for the index to delete
+        System.out.print("Enter index to delete (0-9): ");
+        int index = sc.nextInt();
+
+        // Check whether the index is valid
+        if (index < 0 || index >= arr.length) {
+            System.out.println("Invalid index.");
+        } else {
+            // TODO: Shift elements to the left
+            // Start from the index to be deleted
+
+            // TODO: Reduce the logical size by one
+            int size = arr.length - 1;
+
+            // TODO: Display elements from index 0 to size - 1
+        }
+
+        sc.close();
+    }
+}
